@@ -1,9 +1,12 @@
 mod cassandra;
 mod kv;
-use clap::{Parser, Subcommand};
-use scylla::client::session::Session;
+mod wal;
+use std::{path::PathBuf, sync::Arc, time::Duration};
 
-use crate::{cassandra::create_session, kv::{KVApi, KvMeta, KvStore}};
+use clap::{Parser, Subcommand};
+
+
+use crate::{ kv::{KVApi, KvMeta, KvStore}};
 #[derive(Parser, Debug)]
 #[command(name = "kv-graph", about = "kv graph utils", version="1.0")]
 pub struct Args {
@@ -21,22 +24,36 @@ async fn main() -> std::result::Result<(), std::io::Error>{
     
     println!("command {:?}", args);
     let Command::Start { keyspace, table } = args.command;
-    let kv_store = KvStore::new("localhost:9042".to_string(), KvMeta { keyspace, table }).await?;
+    let wal_dir = PathBuf::from("./segments");
+    let checkpoint_path = wal_dir.join("checkpoint.log");
+    let kv_store = Arc::new(KvStore::new("localhost:9042".to_string(), KvMeta { keyspace, table }, wal_dir, checkpoint_path).await
+    .expect("failing herer"));
     kv_store.migrate_if_allowed().await?;
-    let key = "user245:watched";
-    let value = b"movie:123";
-    let mut movie_id = 124;
-    for _ in 0..50 { 
-        let movie = format!("movie:{movie_id:?}");
-        println!("putting movie {movie:?}");
-        let movie_blob = String::into_bytes(movie);
-        kv_store.put(key.to_string(), movie_blob).await?;
-        movie_id += 1;
+    kv_store.start_checkpoint_persister();
+    kv_store.clone().start_flush_worker();
+    let kv_clone = kv_store.clone();
+    // tokio::spawn(async move { 
+    //     let mut key = "user123:watched".to_string();
+    //     let mut movie_id = 10;
+    //     for i in 0..100 { 
+    //         if i == 50 { 
+    //             key = "user:130:watched".to_string();
+    //             movie_id = 10;    
+    //         }
+    //         let mut value = format!("movie:{}", movie_id);
+    //         kv_clone.clone().append(key.clone(), value.as_bytes().to_vec());
+    //         movie_id += 1;
+    //     }
+    // });
+    tokio::time::sleep(Duration::from_secs(18)).await;
+    let values_1 = kv_store.clone().get("user123:watched".to_string()).await?;
+    let values_2 = kv_store.clone().get("user:130:watched".to_string()).await?;
 
-    }
-    //kv_store.put(key.to_string(), value).await?;
-    let values = <KvStore as KVApi<Vec<u8>>>::get(&kv_store, key.to_string()).await?;
-    let values_str: Vec<String> = values.into_iter().map(|v| String::from_utf8(v).unwrap()).collect();
-    println!("values {:?}", values_str);
+    let first_set_of_values: Vec<String> = values_1.into_iter().map(|v| String::from_utf8(v).unwrap()).collect();
+    let second_set_of_values: Vec<String> = values_2.into_iter().map(|v| String::from_utf8(v).unwrap()).collect();
+    println!("first set of values {first_set_of_values:?}");
+    println!("second set of values {second_set_of_values:?}");
+
+    tokio::signal::ctrl_c().await?;
     Ok(())
 }
