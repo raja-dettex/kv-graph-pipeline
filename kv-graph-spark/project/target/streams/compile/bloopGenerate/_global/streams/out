@@ -1,0 +1,4 @@
+[debug] [kv-graph-spark-build] Classpath dependencies List()
+[debug] [kv-graph-spark-build] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'kv-graph-spark-build' to 'C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\project\.bloop\kv-graph-spark-build.json'
+[success] Generated .bloop\kv-graph-spark-build.json

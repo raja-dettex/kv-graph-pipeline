@@ -3,7 +3,10 @@ mod kv;
 mod wal;
 use std::{path::PathBuf, sync::Arc, time::Duration};
 
+use axum::{Json, Router, extract::State, routing::post};
 use clap::{Parser, Subcommand};
+use serde::{Deserialize, Serialize};
+use tokio::net::TcpListener;
 
 
 use crate::{ kv::{KVApi, KvMeta, KvStore}};
@@ -17,6 +20,20 @@ pub struct Args {
 #[derive(Debug, Subcommand)]
 pub enum Command { 
     Start { keyspace: String, table: String}
+}
+#[derive(Serialize, Deserialize)]
+pub struct Interaction { 
+    user_id: String,
+    value: String,
+    action: String
+}
+
+pub async fn append_handler(
+    State(kv): State<Arc<KvStore>>,
+    Json(payload): Json<Interaction>
+) -> Result<Json<&'static str>, String> { 
+    kv.clone().append(payload.user_id, payload.value.as_bytes().to_vec()).map_err(|e| e.to_string())?;
+    Ok(Json("ok"))
 }
 #[tokio::main]
 async fn main() -> std::result::Result<(), std::io::Error>{
@@ -53,7 +70,12 @@ async fn main() -> std::result::Result<(), std::io::Error>{
     let second_set_of_values: Vec<String> = values_2.into_iter().map(|v| String::from_utf8(v).unwrap()).collect();
     println!("first set of values {first_set_of_values:?}");
     println!("second set of values {second_set_of_values:?}");
-
+    // create the routes
+    let app = Router::new()
+        .route("/append", post(append_handler))
+        .with_state(kv_store.clone());
+    let listener = TcpListener::bind("0.0.0.0:8080").await.unwrap();
+    axum::serve(listener, app).await?;
     tokio::signal::ctrl_c().await?;
     Ok(())
 }
