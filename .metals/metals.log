@@ -1,0 +1,207 @@
+2026.03.22 13:02:49 INFO  Started: Metals version 1.6.6 in folders 'C:\Users\Admin\rust-advanced\kv-graph-pipeline' for client Visual Studio Code 1.112.0.
+2026.03.22 13:02:49 INFO  Memory monitor started
+2026.03.22 13:02:49 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.03.22 13:02:49 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\src\main\scala\KvGraphJob.scala. Using presentation compiler with project's scala-library version: 3.3.7
+Mar 22, 2026 1:02:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2026.03.22 13:02:57 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\src\main\scala\KvGraphJob.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.22 13:02:57 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\src\main\scala\KvGraphJob.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.22 13:02:58 WARN  no build target for: C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\src\main\scala\KvGraphJob.scala
+Mar 22, 2026 1:02:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+2026.03.22 13:02:57 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\src\main\scala\KvGraphJob.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.22 13:02:57 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\src\main\scala\KvGraphJob.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.22 13:03:01 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\src\main\scala\KvGraphJob.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.22 13:03:04 INFO  running 'C:\Program Files\Java\jdk-21\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -Dsbt.version=1.12.5 -jar C:\Users\Admin\AppData\Local\Temp\metals7189991730757911158\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2026.03.22 13:03:05 ERROR [info] [launcher] getting org.scala-sbt sbt 1.12.5  (this may take some time)...
+2026.03.22 13:03:09 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.22 13:03:09 WARN  no build target for: C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\build.sbt
+Mar 22, 2026 1:03:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18
+2026.03.22 13:03:09 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.22 13:03:09 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.22 13:03:09 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.22 13:03:14 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\src\main\scala\KvGraphJob.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.22 13:03:14 WARN  no build target for: C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\src\main\scala\KvGraphJob.scala
+2026.03.22 13:03:14 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\src\main\scala\KvGraphJob.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.22 13:03:14 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\src\main\scala\KvGraphJob.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.22 13:03:14 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\src\main\scala\KvGraphJob.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.22 13:03:14 ERROR [info] [launcher] getting Scala 2.12.21 (for sbt)...
+2026.03.22 13:03:16 INFO  [info] Updated file C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\project\build.properties: set sbt.version to 1.12.5
+2026.03.22 13:03:16 INFO  [info] welcome to sbt 1.12.5 (Oracle Corporation Java 21.0.9)
+2026.03.22 13:03:17 INFO  [info] loading settings for project kv-graph-spark-build-build from metals.sbt...
+2026.03.22 13:03:17 INFO  [info] loading project definition from C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\project\project
+2026.03.22 13:03:21 INFO  [info] loading settings for project kv-graph-spark-build from metals.sbt...
+2026.03.22 13:03:21 INFO  [info] loading project definition from C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\project
+2026.03.22 13:03:25 INFO  [success] Generated .bloop\kv-graph-spark-build.json
+2026.03.22 13:03:25 INFO  [success] Total time: 4 s, completed Mar 22, 2026, 1:03:25 PM
+2026.03.22 13:03:26 INFO  [info] loading settings for project kv-graph-spark from build.sbt...
+2026.03.22 13:03:26 INFO  [info] set current project to kv-graph-spark (in build file:/C:/Users/Admin/rust-advanced/kv-graph-pipeline/kv-graph-spark/)
+2026.03.22 13:03:41 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\project\metals.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.22 13:03:41 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\project\metals.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.22 13:03:41 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\project\metals.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.22 13:03:41 WARN  Could not find semantic tokens for: file:///C:/Users/Admin/rust-advanced/kv-graph-pipeline/kv-graph-spark/project/metals.sbt
+2026.03.22 13:03:48 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\src\main\scala\KvGraphJob.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.22 13:03:48 WARN  no build target for: C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\src\main\scala\KvGraphJob.scala
+2026.03.22 13:03:48 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\src\main\scala\KvGraphJob.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.22 13:03:48 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\src\main\scala\KvGraphJob.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.22 13:03:48 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\src\main\scala\KvGraphJob.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.22 13:03:49 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\src\main\scala\KvGraphJob.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.22 13:03:50 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\src\main\scala\KvGraphJob.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.22 13:04:10 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\src\main\scala\KvGraphJob.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.22 13:04:10 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\src\main\scala\KvGraphJob.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.22 13:04:12 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\src\main\scala\KvGraphJob.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.22 13:04:12 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\src\main\scala\KvGraphJob.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.22 13:04:12 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\src\main\scala\KvGraphJob.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.22 13:04:12 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\src\main\scala\KvGraphJob.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.22 13:04:13 INFO  [success] Generated .bloop\kv-graph-spark.json
+2026.03.22 13:04:13 INFO  [success] Generated .bloop\kv-graph-spark-test.json
+2026.03.22 13:04:13 INFO  [success] Total time: 47 s, completed Mar 22, 2026, 1:04:13 PM
+2026.03.22 13:04:14 INFO  time: ran 'sbt bloopInstall' in 1m9s
+2026.03.22 13:04:14 INFO  Attempting to connect to the build server...
+2026.03.22 13:04:14 INFO  No running Bloop server found, starting one.
+2026.03.22 13:04:14 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\src\main\scala\KvGraphJob.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.22 13:04:14 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\src\main\scala\KvGraphJob.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.22 13:04:14 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\src\main\scala\KvGraphJob.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.22 13:04:20 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\src\main\scala\KvGraphJob.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.22 13:04:24 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\src\main\scala\KvGraphJob.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.22 13:04:24 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\src\main\scala\KvGraphJob.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.22 13:04:26 INFO  Starting compilation server
+2026.03.22 13:04:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Admin\rust-advanced\kv-graph-pipeline\.metals\bsp.trace.json or C:\Users\Admin\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.03.22 13:04:28 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\src\main\scala\KvGraphJob.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.22 13:04:28 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\src\main\scala\KvGraphJob.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.22 13:04:28 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\src\main\scala\KvGraphJob.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.22 13:04:28 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\src\main\scala\KvGraphJob.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.22 13:04:28 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\src\main\scala\KvGraphJob.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.22 13:04:29 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\Users\Admin\rust-advanced\kv-graph-pipeline\.metals\.reports\metals-full\2026-03-22\r_empty-definition_13-04-29-060.md")
+2026.03.22 13:04:29 INFO  Created report: Optional[file:///C:/Users/Admin/rust-advanced/kv-graph-pipeline/kv-graph-spark/src/main/scala/KvGraphJob.scala]
+2026.03.22 13:04:29 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\Users\Admin\rust-advanced\kv-graph-pipeline\.metals\.reports\metals-full\2026-03-22\r_empty-definition_13-04-29-060.md")
+2026.03.22 13:04:28 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\src\main\scala\KvGraphJob.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.22 13:04:29 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\src\main\scala\KvGraphJob.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.22 13:04:29 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\src\main\scala\KvGraphJob.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.22 13:04:30 INFO  Created report: Optional[file:///C:/Users/Admin/rust-advanced/kv-graph-pipeline/kv-graph-spark/src/main/scala/KvGraphJob.scala]
+2026.03.22 13:04:30 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\Users\Admin\rust-advanced\kv-graph-pipeline\.metals\.reports\metals-full\2026-03-22\r_empty-definition_13-04-29-995.md")
+2026.03.22 13:04:30 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\src\main\scala\KvGraphJob.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.22 13:04:30 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\Users\Admin\rust-advanced\kv-graph-pipeline\.metals\.reports\metals-full\2026-03-22\r_empty-definition_13-04-29-060.md")
+2026.03.22 13:04:30 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\src\main\scala\KvGraphJob.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.22 13:04:29 INFO  Created report: Optional[file:///C:/Users/Admin/rust-advanced/kv-graph-pipeline/kv-graph-spark/src/main/scala/KvGraphJob.scala]
+2026.03.22 13:04:29 INFO  empty definition using pc, found symbol in pc: spark. (full report at: "C:\Users\Admin\rust-advanced\kv-graph-pipeline\.metals\.reports\metals-full\2026-03-22\r_empty-definition_13-04-30-650.md")
+2026.03.22 13:04:30 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\src\main\scala\KvGraphJob.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.22 13:04:30 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\src\main\scala\KvGraphJob.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.22 13:04:30 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\src\main\scala\KvGraphJob.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.22 13:04:31 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\src\main\scala\KvGraphJob.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.22 13:04:31 INFO  time: Connected to build server in 17s
+2026.03.22 13:04:31 INFO  Connected to Build server: Bloop v2.0.19
+2026.03.22 13:04:31 INFO  empty definition using pc, found symbol in pc: spark. (full report at: "C:\Users\Admin\rust-advanced\kv-graph-pipeline\.metals\.reports\metals-full\2026-03-22\r_empty-definition_13-04-30-650.md")
+2026.03.22 13:04:30 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\src\main\scala\KvGraphJob.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.22 13:04:31 INFO  time: Imported build in 0.16s
+Mar 22, 2026 1:04:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 94
+2026.03.22 13:04:39 INFO  Created report: Optional[file:///C:/Users/Admin/rust-advanced/kv-graph-pipeline/kv-graph-spark/src/main/scala/KvGraphJob.scala]
+2026.03.22 13:04:39 INFO  empty definition using pc, found symbol in pc: org/apache/spark/sql/SparkSession. (full report at: "C:\Users\Admin\rust-advanced\kv-graph-pipeline\.metals\.reports\metals-full\2026-03-22\r_empty-definition_(kv-graph-spark)_13-04-39-400.md")
+2026.03.22 13:04:40 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.03.22 13:04:56 INFO  compiling kv-graph-spark (1 scala source)
+2026.03.22 13:04:56 INFO  Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.18. Compiling...
+2026.03.22 13:05:02 INFO  time: indexed workspace in 31s
+2026.03.22 13:05:02 WARN  no build target for: C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\build.sbt
+2026.03.22 13:05:02 WARN  no build target for: C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\project\metals.sbt
+2026.03.22 13:05:02 INFO  Deduplicating compilation of kv-graph-spark from bsp client 'Metals 1.6.6' (since 35.197s)
+2026.03.22 13:05:02 INFO  compiling kv-graph-spark (1 scala source)
+2026.03.22 13:05:04 INFO  Compilation completed in 7.596s.
+2026.03.22 13:05:06 INFO  time: compiled kv-graph-spark in 3.67s
+2026.03.22 13:05:06 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\project\metals.sbt. Using presentation compiler with project's scala-library version: 2.12.18
+2026.03.22 13:05:06 WARN  no build target for: C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\build.sbt
+2026.03.22 13:05:06 WARN  no build target for: C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\project\metals.sbt
+2026.03.22 13:05:07 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\build.sbt. Using presentation compiler with project's scala-library version: 2.12.18
+2026.03.22 13:06:41 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\project\metals.sbt. Using presentation compiler with project's scala-library version: 2.12.18
+2026.03.22 13:06:41 WARN  no build target for: C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\project\metals.sbt
+2026.03.22 13:06:41 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\project\metals.sbt. Using presentation compiler with project's scala-library version: 2.12.18
+2026.03.22 13:06:41 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\project\metals.sbt. Using presentation compiler with project's scala-library version: 2.12.18
+2026.03.22 13:06:42 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\build.sbt. Using presentation compiler with project's scala-library version: 2.12.18
+2026.03.22 13:06:42 WARN  no build target for: C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\build.sbt
+2026.03.22 13:06:42 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\build.sbt. Using presentation compiler with project's scala-library version: 2.12.18
+2026.03.22 13:06:42 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\build.sbt. Using presentation compiler with project's scala-library version: 2.12.18
+2026.03.22 13:06:42 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\build.sbt. Using presentation compiler with project's scala-library version: 2.12.18
+2026.03.22 13:06:47 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\build.sbt. Using presentation compiler with project's scala-library version: 2.12.18
+2026.03.22 13:06:47 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\build.sbt. Using presentation compiler with project's scala-library version: 2.12.18
+2026.03.22 13:06:55 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\build.sbt. Using presentation compiler with project's scala-library version: 2.12.18
+2026.03.22 13:06:55 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\build.sbt. Using presentation compiler with project's scala-library version: 2.12.18
+2026.03.22 13:06:55 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\build.sbt. Using presentation compiler with project's scala-library version: 2.12.18
+2026.03.22 13:07:07 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\build.sbt. Using presentation compiler with project's scala-library version: 2.12.18
+2026.03.22 13:07:07 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\build.sbt. Using presentation compiler with project's scala-library version: 2.12.18
+2026.03.22 13:07:08 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\build.sbt. Using presentation compiler with project's scala-library version: 2.12.18
+2026.03.22 13:07:08 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\build.sbt. Using presentation compiler with project's scala-library version: 2.12.18
+2026.03.22 13:07:08 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\build.sbt. Using presentation compiler with project's scala-library version: 2.12.18
+2026.03.22 13:07:08 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\build.sbt. Using presentation compiler with project's scala-library version: 2.12.18
+2026.03.22 13:07:08 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\build.sbt. Using presentation compiler with project's scala-library version: 2.12.18
+2026.03.22 13:07:08 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\build.sbt. Using presentation compiler with project's scala-library version: 2.12.18
+2026.03.22 13:07:08 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\build.sbt. Using presentation compiler with project's scala-library version: 2.12.18
+2026.03.22 13:07:09 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\build.sbt. Using presentation compiler with project's scala-library version: 2.12.18
+2026.03.22 13:07:09 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\build.sbt. Using presentation compiler with project's scala-library version: 2.12.18
+2026.03.22 13:07:10 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\build.sbt. Using presentation compiler with project's scala-library version: 2.12.18
+2026.03.22 13:07:10 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\build.sbt. Using presentation compiler with project's scala-library version: 2.12.18
+2026.03.22 13:07:10 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\build.sbt. Using presentation compiler with project's scala-library version: 2.12.18
+2026.03.22 13:07:10 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\build.sbt. Using presentation compiler with project's scala-library version: 2.12.18
+2026.03.22 13:07:10 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\build.sbt. Using presentation compiler with project's scala-library version: 2.12.18
+2026.03.22 13:07:12 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\build.sbt. Using presentation compiler with project's scala-library version: 2.12.18
+2026.03.22 13:07:12 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\build.sbt. Using presentation compiler with project's scala-library version: 2.12.18
+2026.03.22 13:07:12 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\build.sbt. Using presentation compiler with project's scala-library version: 2.12.18
+2026.03.22 13:07:12 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\build.sbt. Using presentation compiler with project's scala-library version: 2.12.18
+2026.03.22 13:07:12 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\build.sbt. Using presentation compiler with project's scala-library version: 2.12.18
+2026.03.22 13:07:12 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\build.sbt. Using presentation compiler with project's scala-library version: 2.12.18
+2026.03.22 13:07:12 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\build.sbt. Using presentation compiler with project's scala-library version: 2.12.18
+2026.03.22 13:07:12 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\build.sbt. Using presentation compiler with project's scala-library version: 2.12.18
+2026.03.22 13:07:13 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\build.sbt. Using presentation compiler with project's scala-library version: 2.12.18
+2026.03.22 13:07:13 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\build.sbt. Using presentation compiler with project's scala-library version: 2.12.18
+2026.03.22 13:07:13 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\build.sbt. Using presentation compiler with project's scala-library version: 2.12.18
+2026.03.22 13:07:14 WARN  no build target for: C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\build.sbt
+2026.03.22 13:07:16 INFO  time: code lens generation in 2.89s
+2026.03.22 13:07:16 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\build.sbt. Using presentation compiler with project's scala-library version: 2.12.18
+2026.03.22 13:07:18 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\build.sbt. Using presentation compiler with project's scala-library version: 2.12.18
+2026.03.22 13:07:19 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\build.sbt. Using presentation compiler with project's scala-library version: 2.12.18
+2026.03.22 13:07:21 INFO  running 'C:\Program Files\Java\jdk-21\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Admin\AppData\Local\Temp\metals5891090886593752083\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2026.03.22 13:07:21 INFO  no build target found for C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\build.sbt. Using presentation compiler with project's scala-library version: 2.12.18
+2026.03.22 13:07:22 INFO  [info] welcome to sbt 1.12.5 (Oracle Corporation Java 21.0.9)
+2026.03.22 13:07:22 INFO  [info] loading settings for project kv-graph-spark-build-build from metals.sbt...
+2026.03.22 13:07:24 INFO  [info] loading project definition from C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\project\project
+2026.03.22 13:07:24 INFO  [info] loading settings for project kv-graph-spark-build from metals.sbt...
+2026.03.22 13:07:24 INFO  [info] loading project definition from C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\project
+2026.03.22 13:07:27 INFO  [success] Generated .bloop\kv-graph-spark-build.json
+2026.03.22 13:07:27 INFO  [success] Total time: 2 s, completed Mar 22, 2026, 1:07:27 PM
+2026.03.22 13:07:28 INFO  [info] loading settings for project kv-graph-spark from build.sbt...
+2026.03.22 13:07:28 INFO  [info] set current project to kv-graph-spark (in build file:/C:/Users/Admin/rust-advanced/kv-graph-pipeline/kv-graph-spark/)
+2026.03.22 13:07:33 INFO  [success] Generated .bloop\kv-graph-spark-test.json
+2026.03.22 13:07:33 INFO  [success] Generated .bloop\kv-graph-spark.json
+2026.03.22 13:07:33 INFO  [success] Total time: 4 s, completed Mar 22, 2026, 1:07:33 PM
+2026.03.22 13:07:33 INFO  time: ran 'sbt bloopInstall' in 12s
+2026.03.22 13:07:33 INFO  Disconnecting from Bloop session...
+2026.03.22 13:07:33 INFO  Shut down connection with build server.
+2026.03.22 13:07:33 INFO  Attempting to connect to the build server...
+2026.03.22 13:07:33 INFO  Found a Bloop server running
+2026.03.22 13:07:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Admin\rust-advanced\kv-graph-pipeline\.metals\bsp.trace.json or C:\Users\Admin\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.03.22 13:07:33 INFO  time: Connected to build server in 0.14s
+2026.03.22 13:07:33 INFO  Connected to Build server: Bloop v2.0.19
+2026.03.22 13:07:37 INFO  time: indexed workspace in 3.68s
+2026.03.22 13:07:37 WARN  no build target for: C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\project\metals.sbt
+2026.03.22 13:07:37 WARN  no build target for: C:\Users\Admin\rust-advanced\kv-graph-pipeline\kv-graph-spark\build.sbt
+2026.03.22 13:07:37 INFO  compiling kv-graph-spark (1 scala source)
+2026.03.22 13:07:37 INFO  time: compiled kv-graph-spark in 0.93s
+Mar 22, 2026 1:08:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 278
+Mar 22, 2026 1:08:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 279
+Mar 22, 2026 1:08:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 282
+Mar 22, 2026 1:08:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 281
+Mar 22, 2026 1:08:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 283
+2026.03.22 13:08:12 INFO  compiling kv-graph-spark (1 scala source)
+2026.03.22 13:08:12 INFO  time: compiled kv-graph-spark in 0.53s
+2026.03.22 13:09:53 INFO  compiling kv-graph-spark (1 scala source)
+2026.03.22 13:09:53 INFO  time: compiled kv-graph-spark in 0.46s
+2026.03.22 19:43:06 INFO  Shutting down server
+2026.03.22 19:43:06 INFO  Memory monitor stopped
+2026.03.22 19:43:06 INFO  shutting down Metals
+2026.03.22 19:43:07 INFO  Shut down connection with build server.
+2026.03.22 19:43:06 INFO  Exiting server
